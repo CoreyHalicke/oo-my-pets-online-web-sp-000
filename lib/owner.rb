@@ -37,6 +37,8 @@ class Owner
   end
 
   def buy_cat(name)
+    new_cat = Cat.new(name, self)
+    new_cat.mood = "happy"
     binding.pry
   end
 
