@@ -27,6 +27,6 @@ class Owner
   end
 
   def cats
-    pry
+    binding.pry
   end
 end
