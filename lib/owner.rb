@@ -28,7 +28,7 @@ class Owner
   end
 
   def cats
-    
+
   end
 
   def dogs
