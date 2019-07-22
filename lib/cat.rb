@@ -8,6 +8,7 @@ class Cat
     @owner = owner
     @mood = "nervous"
     @@all << self
+    binding.pry
   end
 
   def self.all
