@@ -4,6 +4,7 @@ class Owner
 
   @@all = []
   @@cats = []
+  @@dogs = []
 
   def initialize(name)
     @name = name
