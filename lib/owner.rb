@@ -9,6 +9,7 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
+    @@counter += 1
   end
 
   def say_species
