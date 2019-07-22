@@ -42,8 +42,10 @@ class Owner
     @@cats << new_cat
   end
 
-  def buy_dog
-
+  def buy_dog(name)
+    new_dog = Dag.new(name, self)
+    new_dog.mood = "happy"
+    @@dogs << new_dog
   end
 
 end
