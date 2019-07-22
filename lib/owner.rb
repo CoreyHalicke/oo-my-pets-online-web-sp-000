@@ -8,6 +8,7 @@ class Owner
 
   def self.say_species
     puts "I am a #{@species}."
+  end
 
 
 end
