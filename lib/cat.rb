@@ -10,7 +10,7 @@ class Cat
     @mood = "nervous"
     @cats = []
     @@all << self
-    
+
   end
 
   def self.all
