@@ -37,7 +37,7 @@ class Owner
   end
 
   def buy_cat(name)
-    pry
+    binding.pry
   end
 
   def buy_dog
