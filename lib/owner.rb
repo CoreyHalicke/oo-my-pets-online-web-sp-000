@@ -48,4 +48,8 @@ class Owner
     @@dogs << new_dog
   end
 
+  def walk_dogs
+
+  end
+
 end
