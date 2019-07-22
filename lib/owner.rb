@@ -48,8 +48,8 @@ class Owner
     @@dogs << new_dog
   end
 
-  def walk_dogs(dogs)
-    binding.pry
+  def walk_dogs
+    
   end
 
 end
