@@ -5,6 +5,6 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
-    puts "I am a #{species}"
+    puts "I am a #{species}."
   end
 end
