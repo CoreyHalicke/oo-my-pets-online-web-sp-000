@@ -66,11 +66,16 @@ class Owner
       pet.owner = nil
     end
     @@cats.clear
+
     @@dogs.each do |pet|
       pet.mood = "nervous"
       pet.owner = nil
     end
     @@dogs.clear
+  end
+
+  def list_pets
+
   end
 
 end
