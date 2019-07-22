@@ -5,10 +5,10 @@ class Cat
 
   def initialize(name, owner)
     @name = name
+    binding.pry
     @owner = owner
     @mood = "nervous"
     @@all << self
-    binding.pry
   end
 
   def self.all
