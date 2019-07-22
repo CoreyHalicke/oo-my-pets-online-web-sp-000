@@ -7,6 +7,7 @@ class Owner
   end
 
   def self.say_species
+    binding.pry
     puts "I am a #{@species}."
   end
 
